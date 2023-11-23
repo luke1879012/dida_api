@@ -8,11 +8,10 @@
 
 参数
 
-| 参数名   | 值   | 作用 | 必要性 |
-| -------- | ---- | :--: | ------ |
-| wc       | true |  -   | -      |
-| remember | true |  -   | -      |
-|          |      |      |        |
+| 参数名   |  值  | 必要性 | 作用 |
+| -------- | :--: | ------ | ---- |
+| wc       | true |        |      |
+| remember | true |        |      |
 
 
 
@@ -42,12 +41,12 @@
 
 字段说明
 
-| 字段名         | 字段值       | 作用           |
-| -------------- | ------------ | -------------- |
-| errorId        | -            | -              |
-| errorCode      | 错误原因     | 表示错误的类型 |
-| errorMessage   | 登录的账户名 | -              |
-| remainderTimes | -数字        | -              |
+| 字段名         | 值       | 作用 |
+| -------------- | -------- | ---- |
+| errorId        |          |      |
+| errorCode      | 错误原因 |      |
+| errorMessage   | 账户名   |      |
+| remainderTimes |          |      |
 
 **成功响应**
 
@@ -72,22 +71,22 @@
 
 字段说明
 
-| 字段名         | 字段值             | 作用     |
-| -------------- | ------------------ | -------- |
+| 字段名         | 值                 | 作用     |
+| :------------- | :----------------- | -------- |
 | token          | 账户token字符串    | 验证账户 |
-| userId         | 用户唯一ID         | -        |
-| userCode       | -                  | -        |
-| username       | 账户名             | -        |
-| teamPro        | 高级会员           | -        |
-| proStartDate   | -                  | -        |
-| proEndDate     | -                  | -        |
-| needSubscribe  | -                  | -        |
-| inboxId        | 默认任务添加清单ID | -        |
-| teamUser       | 团队用户           | -        |
-| activeTeamUser | -                  | -        |
-| freeTrial      | -                  | -        |
-| pro            | -                  | -        |
-| ds             | -                  | -        |
+| userId         | 用户唯一ID         |          |
+| userCode       |                    |          |
+| username       | 账户名             |          |
+| teamPro        |                    |          |
+| proStartDate   |                    |          |
+| proEndDate     |                    |          |
+| needSubscribe  |                    |          |
+| inboxId        | 默认任务添加清单ID |          |
+| teamUser       |                    |          |
+| activeTeamUser |                    |          |
+| freeTrial      |                    |          |
+| pro            |                    |          |
+| ds             |                    |          |
 
 
 
