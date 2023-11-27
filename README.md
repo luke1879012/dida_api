@@ -12,10 +12,15 @@
 5. 本项目为开源项目，不接受任何形式的催单和索取行为，更不容许存在付费内容
 
 ## 🍴目录
+
+
+- [ ] [文档模板](docs/template.md)
 - [ ] [web端](docs/web)
   - [ ] [登录](docs/web/login/signon.md)
   - [ ] [退出登录](docs/web/login/signout.md)
+  - [ ] [清单任务](docs/web/task/task.md)
 - [ ] [win10桌面端](docs/win10)
+
 ## ✨鸣谢
 
 项目学习模仿来自易姐的[BAC](https://github.com/SocialSisterYi/bilibili-API-collect)
