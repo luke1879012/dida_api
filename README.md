@@ -18,6 +18,7 @@
 - [ ] [web端](docs/web)
   - [ ] [登录](docs/web/login/signon.md)
   - [ ] [退出登录](docs/web/login/signout.md)
+  - [ ] [获取清单信息](docs/web/获取清单信息.md)
   - [ ] [清单任务](docs/web/task/task.md)
 - [ ] [win10桌面端](docs/win10)
 
