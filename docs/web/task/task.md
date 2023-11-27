@@ -64,14 +64,14 @@
 | priority          |                |        |                          |
 | assignee          |                |        |                          |
 | sortOrder         |                | 必要   |                          |
-| startDate         |                |        |                          |
+| startDate         |                |        | UTC时间                  |
 | isFloating        |                |        |                          |
 | columnId          | 一个随机字符串 |        |                          |
 | status            |                |        |                          |
 | projectId         |    清单的ID    |        | 把这个任务添加到哪个清单 |
 | kind              |                |        |                          |
-| createdTime       |                |        |                          |
-| modifiedTime      |                |        |                          |
+| createdTime       |                |        | UTC时间                  |
+| modifiedTime      |                |        | UTC时间                  |
 | title             |      标题      | 非必要 |                          |
 | tags              |                |        |                          |
 | timeZone          |      时区      |        |                          |
@@ -91,6 +91,7 @@
 **失败响应**
 
 ```json
+
 ```
 
 *失败响应字段说明*
