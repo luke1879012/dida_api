@@ -20,6 +20,7 @@
   - [ ] [退出登录](docs/web/login/signout.md)
   - [ ] [获取清单信息](docs/web/获取清单信息.md)
   - [ ] [清单任务](docs/web/task/task.md)
+  - [ ] [cookie续命](docs/web/cookie续命.md)
 - [ ] [win10桌面端](docs/win10)
 
 ## ✨鸣谢
