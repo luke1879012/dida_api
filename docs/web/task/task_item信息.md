@@ -9,6 +9,9 @@
 对应 `详情(子任务)`
 ![items_786.png](../../../static/img/items_786.png)
 
+网页端完成子任务会自动修改[进度](#progress)，接口不知道会不会自动修改
+![items_623.png](../../../static/img/items_623.png)
+
 例子:
 
 ```json
@@ -69,13 +72,13 @@
 }
 ```
 
-| 参数名           | 值 | 必要性 | 作用 |
-|---------------|---|-----|----|
-| id            |   |     |    |
-| status        |   |     |    |
-| title         |   |     |    |
-| sortOrder     |   |     |    |
-| completedTime |   |     |    |
+| 参数名           | 值   | 必要性 | 作用            |
+|---------------|-----|-----|---------------|
+| id            |     |     |               |
+| status        | 1/0 |     | 1：完成，0：未完成    |
+| title         |     |     |               |
+| sortOrder     |     |     |               |
+| completedTime |     |     | 完成时间，未完成为null |
 
 ### reminders
 
@@ -177,3 +180,98 @@ pass
 pass
 
 ### sortOrder
+
+一堆数字，用于排序
+
+### startDate
+
+pass
+
+### isFloating
+
+pass
+
+### completedUserId
+
+pass
+
+### desc
+
+当`kind`为`CHECKLIST`时，用于`描述`
+![desc_5283.png](../../../static/img/desc_5283.png)
+
+### status
+
+pass
+
+### projectId
+
+对应的清单id
+
+### kind
+
+| 值         | 作用    | 例图                                                  |
+|-----------|-------|-----------------------------------------------------|
+| TEXT      | 普通的   | ![kind_6813.png](../../../static/img/kind_6813.png) |
+| CHECKLIST | 包含子任务 | ![kind_51.png](../../../static/img/kind_51.png)     |
+| NOTE      | 笔记    | ![kind613.png](../../../static/img/kind613.png)     |
+
+### etag
+
+pass
+
+### createdTime
+
+创建时间
+
+### modifiedTime
+
+最近修改时间
+
+### title
+
+标题
+![title_1243.png](../../../static/img/title_1243.png)
+
+### tags
+
+pass
+
+### timeZone
+
+时区，这个重要
+
+### content
+
+描述，注意区别[desc](#desc)，desc字段只有kind=`CHECKLIST`出现
+
+一般直接用这个字段即可
+![content_513.png](../../../static/img/content_513.png)
+
+### id
+
+唯一标识符，update或delete使用
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
