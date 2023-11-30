@@ -21,6 +21,8 @@
   - [ ] [获取清单信息](docs/web/获取清单信息.md)
   - [ ] [清单任务](docs/web/task/task.md)
   - [ ] [cookie续命](docs/web/cookie续命.md)
+  - [ ] [系统消息通知](docs/web/notify/notify.md)
+  - [ ] [获取习惯信息](docs/web/habit/habit.md)
 - [ ] [win10桌面端](docs/win10)
 
 ## ✨鸣谢
