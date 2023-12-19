@@ -16,13 +16,20 @@
 
 - [ ] [文档模板](docs/template.md)
 - [ ] [web端](docs/web)
+
+  - [ ] [请求头](docs/web.header.md)
   - [ ] [登录](docs/web/login/signon.md)
-  - [ ] [退出登录](docs/web/login/signout.md)
+  - [x] [退出登录](docs/web/login/signout.md)
   - [ ] [获取清单信息](docs/web/获取清单信息.md)
   - [ ] [清单任务](docs/web/task/task.md)
+  - [ ] [统计](docs/web/统计.md)
   - [ ] [cookie续命](docs/web/cookie续命.md)
   - [ ] [系统消息通知](docs/web/notify/notify.md)
   - [ ] [获取习惯信息](docs/web/habit/habit.md)
+  - [ ] [课程](docs/web/course/course.md)
+  - [ ] [版本对比](docs/web/limit/limit.md)
+  - [ ] [隐藏的信息](docs/web/隐藏信息.md)
+
 - [ ] [win10桌面端](docs/win10)
 
 ## ✨鸣谢
