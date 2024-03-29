@@ -35,3 +35,19 @@
 ## ✨鸣谢
 
 项目学习模仿来自易姐的[BAC](https://github.com/SocialSisterYi/bilibili-API-collect)
+
+
+## 👀 demo(场景驱动更新, 欢迎提issues)
+单纯收集没意思, 以下是一些具体场景, 目前只支持python
+
+### 前置工作
+版本: `python>=3.6`
+
+依赖:
+```shell
+pip install didabox
+```
+环境: 在[demo/config.py](demo/config.py)中配置`账号密码`即可
+
+### 场景
+- [x] [查看清单信息](demo/查看清单信息.py)
