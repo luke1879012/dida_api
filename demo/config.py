@@ -11,3 +11,4 @@
 # 为了减轻平台覆盖和保护你的账号，建议使用cookie
 USER_NAME = ""
 PASSWORD = ""
+COOKIES = {}
