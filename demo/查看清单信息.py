@@ -10,9 +10,12 @@
 from didabox.main import DidaBox
 
 
-def show_list(user_name, password):
-    dida = DidaBox(cookies={})
-    dida.sign_on(user_name, password)
+def show_list(user_name, password, cookies):
+    if cookies:
+        dida = DidaBox(cookies=cookies)
+    else:
+        dida = DidaBox(cookies={})
+        dida.sign_on(user_name, password)
     res = dida.base_info()
     data = res.json()
     print("清单信息")
@@ -36,6 +39,6 @@ def show_list(user_name, password):
 
 
 if __name__ == '__main__':
-    from demo.config import USER_NAME, PASSWORD
+    from demo.config import USER_NAME, PASSWORD, COOKIES
 
-    show_list(user_name=USER_NAME, password=PASSWORD)
+    show_list(user_name=USER_NAME, password=PASSWORD, cookies=COOKIES)
