@@ -21,7 +21,7 @@ def show_list(user_name, password, cookies):
     print("清单信息")
     for project in data['projectProfiles'] or []:
         print("清单名", project['name'], "清单id", project['id'],
-              '类型', project['kind'], "所属文件夹id", project['groupId'])
+              '类型', project['kind'], "所属文件夹id", project['groupId'], '归档', project['closed'])
     print("清单文件夹信息")
     for project_group in data['projectGroups'] or []:
         print("文件夹名", project_group['name'], "文件夹id", project_group['id'])
