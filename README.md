@@ -23,6 +23,7 @@
   - [ ] [获取清单信息](docs/web/获取清单信息.md)
   - [ ] [清单任务](docs/web/task/task.md)
   - [ ] [统计](docs/web/统计.md)
+  - [ ] [番茄专注](docs/web/pomodoros/pomodoros.md)
   - [ ] [cookie续命](docs/web/cookie续命.md)
   - [ ] [系统消息通知](docs/web/notify/notify.md)
   - [ ] [获取习惯信息](docs/web/habit/habit.md)
@@ -54,4 +55,5 @@ pip install didabox
 - [x] [过滤标签](demo/过滤标签.py)
 - [x] [添加任务到收集箱](demo/添加任务到收集箱.py)
 - [x] [123木头人](demo/木头人.py)
+- [x] [动态任务信息](demo/动态任务信息.py)
 
