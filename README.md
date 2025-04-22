@@ -56,4 +56,5 @@ pip install didabox
 - [x] [添加任务到收集箱](demo/添加任务到收集箱.py)
 - [x] [123木头人](demo/木头人.py)
 - [x] [动态任务信息](demo/动态任务信息.py)
+- [x] [导出笔记到本地](demo/导出笔记.py)
 
